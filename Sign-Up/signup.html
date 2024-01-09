@@ -38,24 +38,24 @@
         <h1>Sign Up</h1>
         <div class="input">
           <label for="">Enter your username</label>
-          <input type="text" placeholder="Username">
+          <input type="text" placeholder="Username" spellcheck="false">
         </div>
         <div class="input">
           <label for="">Email</label>
-          <input type="text" placeholder="your@example.com">
+          <input type="text" placeholder="your@example.com" spellcheck="false">
         </div>
         <div class="input">
           <label for="">Enter your Password</label>
-          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Password" spellcheck="false">
         </div>
         <div class="input">
           <label for="">Confirm your Password</label>
-          <input type="password" placeholder="Confirm Password">
+          <input type="password" placeholder="Confirm Password" spellcheck="false">
         </div>
         <div class="capt">
           <div class="d-flex">
-            <input type="text" name="captcha_code" id="captcha_code" maxlength="5" class="form-control"
-              placeholder="Captcha Code" style="text-align:center;" required="" />
+            <input type="text" name="captcha_code" id="captcha_code" maxlength="5" spellcheck="false"
+              class="form-control" placeholder="Captcha Code" style="text-align:center;" required="" />
             <img id="captcha" src="../securimage_show.php" alt="CAPTCHA Image" class="img-fluid px-2 mx-2" />
             <a href="#"
               onclick="document.getElementById('captcha').src = '../securimage_show.php?' + Math.random(); return false"
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="subBtn">
-          <span>Already have an account?  <a href="../index.html"> Sign In</a></span>
+          <span>Already have an account? <a href="../index.html"> Sign In</a></span>
           <button type="submit">Sign up </button>
         </div>
       </form>

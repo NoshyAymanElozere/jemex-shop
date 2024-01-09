@@ -120,68 +120,74 @@
 
     <!-- Start Main Content -->
     <div class="mainContent">
-      <h1 class="hdx">Add Balance</h1>
-      <div class="bx">
-        <div class="pgts">
-          <div class="pgerh">
-            <img src="../media/icons/payment/BTC.png" alt="">
-            <div class="bht">
-              <span>Bitcoin</span><input type="number">
-              <span>USD</span>
-            </div>
-            <a href="##" class="btn">Add Balance</a>
+      <h1 class="hdx">Bitcoin Payment</h1>
+      <div class="pg125">
+        <div class="payAmount11">
+          <div class="logo pt40 p0">
+            <img src="../media/logo-blue.png" alt="">
           </div>
-          <div class="pgerh">
-            <img src="../media/icons/payment/PM.png" alt="">
-            <div class="bht">
-              <span>Perfect Money Payment</span><input type="number">
-              <span>USD</span>
-            </div>
-            <a href="##" class="btn">Add Balance</a>
+          <div class="tatalPaym">
+            <span>Total Payment</span>
+            <h1>1000.00 <span>USD</span></h1>
           </div>
-          <div class="pgerh">
-            <img src="../media/icons/payment/LTC.png" alt="">
-            <div class="bht">
-              <span>Litecoin</span><input type="number">
-              <span>USD</span>
-            </div>
-            <a href="##" class="btn">Add Balance</a>
+          <div class="waitIn">
+            <img src="../media/icons/loader.svg" alt=""> Waiting for payment...
           </div>
-          <div class="pgerh">
-            <img src="../media/icons/payment/USDT.png" alt="">
-            <div class="bht">
-              <span>Tether</span><input type="number" onKeyPress="if(this.value.length==5) return false;">
-              <span>USD</span>
+          <div class="statePay">
+            <div class="st12">
+              <div class="stt">
+                <span>State</span>
+                <div class="sc2">
+                  <div class="smallBtn pinkBac">Not Paid</div>
+                </div>
+              </div>
+              <div class="stt">
+                <span>Loaded</span>
+                <div class="sc2">
+                  <div class="smallBtn mainBac">00.00</div> <span>BTC</span>
+                </div>
+              </div>
             </div>
-            <a href="##" class="btn">Add Balance</a>
+            <div class="stt">
+              <span>Rate</span>
+              <p>1 BTC = 43561.21 USD (According to Coinbase)</p>
+            </div>
+            <div class="stt">
+              <span>Payment ID</span>
+              <p>890675231</p>
+            </div>
+            <div class="stt">
+              <span>Descriptor</span>
+              <p>Account top-up</p>
+            </div>
           </div>
         </div>
-        <div class="tboxxx">
-          <div class="tboxInner">
-            <div class="tBox ifs">
-              <h2>Informations</h2>
-              <a href="##">After payment funds will be added automatically to your account instantly!<img
-                  src="../media/icons/arrow-main-xx.png" alt=""></a>
+        <div class="qr-data">
+          <img src="../media/img/qr-code.png" alt="">
+          <span>Scan QR to Pay</span>
+          <div class="paydata">
+            <div class="pRow10">
+              <span>To pay</span>
+              <p>1 000.00 USD </p>
             </div>
-            <div class="tBox ifs">
-              <h2>Informations</h2>
-              <a href="##">Bitcoin / Perfect Money / USDT TRC20 / Litecoin is a secure way to fund your account! <img
-                  src="../media/icons/arrow-main-xx.png" alt=""></a>
+            <div class="pRow10">
+              <span>Crypto to pay</span>
+              <div class="copyTex">0.0002341<span>BTC</span><img src="../media/icons/copy.png" alt=""></div>
             </div>
-            <div class="tBox ifs">
-              <h2>Informations</h2>
-              <a href="##">Min/Max is 5/1000 USD <img src="../media/icons/arrow-main-xx.png" alt=""></a>
-            </div>
-            <div class="tBox">
-              <h2>Need Support?</h2>
-              <a href="##">If you need support you can send a ticket to us and then we will respond to you as soon as
-                possible. <img src="../media/icons/arrow-main-xx.png" alt=""></a>
+            <div class="pRow10">
+              <span>Payment address</span>
+              <div class="copyTex">J0uQ7c9jN7qW1Bfk02B<img src="../media/icons/copy.png" alt=""></div>
             </div>
           </div>
-          <div class="tbBtns">
-            <a href="##">View Deposit History</a>
-            <a href="##">Pending Deposit History</a>
-          </div>
+          <ul class="inst50">
+            <li>DO NOT CLOSE THIS PAGE!</li>
+            <li>Please wait for at least 1 confirmation</li>
+            <li>For high amounts please include high fees</li>
+            <li>This page will be only valid for 5 hours</li>
+            <li>Make sure that you send exactly 0.0002341 BTC</li>
+            <li>After payment an amount of $5 will be added to your account</li>
+            <li>If any error happened or money didn't show please <a href="##">Open Ticket</a> fast!</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -189,6 +195,6 @@
   </div>
 </body>
 <script src="../js/main.js"></script>
-<script src="../js/numInput.js"></script>
+<script src="../js/copy.js"></script>
 
 </html>

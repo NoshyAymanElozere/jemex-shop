@@ -29,17 +29,17 @@
         <h1>Sign in</h1>
         <div class="input">
           <label for="">Enter your Username</label>
-          <input type="text" placeholder="Username">
+          <input type="text" placeholder="Username" spellcheck="false">
         </div>
         <div class="input">
           <label for="">Enter your Password</label>
-          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Password" spellcheck="false">
         </div>
         <div class="capt">
           <a class="forgot" href="./Sign-Up/reset.html">Forgot Password</a>
           <div class="d-flex">
-            <input type="text" name="captcha_code" id="captcha_code" maxlength="5" class="form-control"
-              placeholder="Captcha Code" style="text-align:center;" required="" />
+            <input type="text" name="captcha_code" id="captcha_code" spellcheck="false" maxlength="5"
+              class="form-control" placeholder="Captcha Code" style="text-align:center;" required="" />
             <img id="captcha" src="securimage_show.php" alt="CAPTCHA Image" class="img-fluid px-2 mx-2" />
             <a href="#"
               onclick="document.getElementById('captcha').src = 'securimage_show.php?' + Math.random(); return false"
