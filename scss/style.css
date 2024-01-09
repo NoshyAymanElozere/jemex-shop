@@ -2404,4 +2404,122 @@ nav::-webkit-scrollbar {
   .account .arrow {
     display: none;
   }
+}
+.mainContent .Tit52 {
+  color: #32393f;
+  font-size: 50px;
+  font-weight: 500;
+  list-style: 24px;
+  letter-spacing: 0.5px;
+  font-family: f400;
+  padding-top: 30px;
+}
+.mainContent .line52 {
+  width: 100%;
+  height: 1px;
+  background-color: #2269f5;
+  margin-top: 0;
+}
+.mainContent .box52 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.mainContent .box52 .txtbox52 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.mainContent .box52 .txtbox52 span {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-family: f700;
+  line-height: normal;
+}
+.mainContent .box52 .txtbox52 p {
+  color: #000;
+  font-family: f400;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+}
+.mainContent .bttngroup52 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.mainContent .bttngroup52 .bttn52 {
+  width: 376px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: #2269F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mainContent .bttngroup52 .bttn52 a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 15px;
+  font-family: f500;
+  color: #FFF;
+  margin: 30px;
+  margin-left: -10px;
+}
+.mainContent .bttngroup52 .bttn52 .ln52 {
+  width: 2px;
+  height: 100%;
+  margin-left: -93px;
+  background-color: #FFF;
+}
+.mainContent .info52 {
+  width: 100%;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 20px;
+}
+.mainContent .info52 .ref52 {
+  gap: 30PX;
+  padding: 10px;
+}
+.mainContent .info52 .ref52 h2 {
+  color: #054FE1;
+  font-size: 24px;
+  line-height: 33px;
+  font-family: f600;
+}
+.mainContent .info52 .ref52 .copylink52 {
+  width: 335px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1px solid #ADADAD;
+  background: #2269F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.mainContent .info52 .ref52 .copylink52 span {
+  font-family: f600;
+  color: #FFF;
+  font-size: 14px;
+}
+.mainContent .info52 .txt52 ul {
+  padding: 15px;
+}
+.mainContent .info52 .txt52 ul li {
+  color: #2269F5;
+  font-family: f500;
+  padding: 5px 0;
 }/*# sourceMappingURL=style.css.map */
