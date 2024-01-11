@@ -2328,8 +2328,14 @@ nav {
   }
 }
 
-// :start new
+// :start new 1
 .mainContent {
+  .lin52 {
+    width: 100%;
+    height: 1px;
+    background-color: #2269f5;
+    margin-top: 0;
+  }
   .Tit52 {
     color: #32393f;
     font-size: 50px;
@@ -2339,12 +2345,7 @@ nav {
     font-family: f400;
     padding-top: 30px;
   }
-  .line52 {
-    width: 100%;
-    height: 1px;
-    background-color: #2269f5;
-    margin-top: 0;
-  }
+
   .box52 {
     display: flex;
     align-items: center;
@@ -2354,7 +2355,7 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: start;
-     
+
       span {
         color: #000;
         font-size: 25px;
@@ -2370,90 +2371,189 @@ nav {
         line-height: normal;
       }
     }
-   
   }
-  .bttngroup52{
+  .bttngroup52 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap:20px;
-    .bttn52{
+    gap: 20px;
+    .bttn52 {
       width: 376px;
       height: 60px;
       flex-shrink: 0;
       border-radius: 15px;
-      background-color: #2269F5;
+      background-color: #2269f5;
       display: flex;
       align-items: center;
       justify-content: space-around;
-      a{
-        display:flex;
+      a {
+        display: flex;
         align-items: center;
         justify-content: start;
         font-size: 15px;
         font-family: f500;
-        color: #FFF;
+        color: #fff;
         margin: 30px;
         margin-left: -10px;
       }
-      .ln52{
+      .ln52 {
         width: 2px;
         height: 100%;
         margin-left: -93px;
-        background-color: #FFF;
+        background-color: #fff;
       }
-    
     }
-    
   }
-  .info52{
+  .info52 {
     width: 100%;
-    background-color: #FFF;
+    background-color: #fff;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 15px;
-    padding: 20px;
-    .ref52{
-      gap: 30PX;
+
+    .ref52 {
+      gap: 30px;
       padding: 10px;
-      h2{
-        color: #054FE1;
+      h2 {
+        color: #054fe1;
         font-size: 24px;
         line-height: 33px;
         font-family: f600;
       }
-      .copylink52{
+      .copylink52 {
         width: 335px;
         height: 40px;
         flex-shrink: 0;
         border-radius: 9px;
-        border: 1px solid #ADADAD;
-        background: #2269F5;
+        border: 1px solid #adadad;
+        background: #2269f5;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0 5px;
-        span{
+        span {
           font-family: f600;
-          color: #FFF;
+          color: #fff;
           font-size: 14px;
         }
       }
-
-    
     }
-    .txt52{
-      ul{
+    .txt52 {
+      ul {
         padding: 15px;
-        li{
-          color: #2269F5;
+        li {
+          color: #2269f5;
           font-family: f500;
           padding: 5px 0;
         }
       }
+    }
+  }
+  @media (max-width: 900px) {
+    .info52 {
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .bttn52 {
+      width: 300px;
+    }
+  }
+}
+// start new 2
+.mainContent {
+  .bx53 {
+    .lableWleet {
+      color: #000;
+      font-size: 16px;
+      font-family: f400;
+      line-height: normal;
+    }
+    .wleetInput53 {
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+
+      input {
+        width: 400px;
+        height: 45px;
+        border: 1px solid #175be0;
+        outline: none;
+        background-color: #fff;
+        border-radius: 10px;
+        padding-inline-start: 12px;
+      }
+      input::placeholder {
+        color: #808080;
+        font-size: 14px;
+        font-family: f400;
+      }
+
+      .savbtn53 {
+        width: 95px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        background-color: #2269f5;
+        box-shadow: 1px 2px 3px 0px rgba(70, 118, 251, 0.41);
+        color: #fff;
+        font-size: 15px;
+        font-family: f400;
+        letter-spacing: -0.3px;
+      }
+    }
+
+    @media (max-width: 890px) {
+      .wleetInput53 {
+        input {
+          max-width: 250px;
+        }
+      }
+    }
+  }
+  .ln53 {
+    width: 100%;
+    height: 1px;
+    background-color: #2269f5;
+  }
+  .al35 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+  }
+  @media (max-width: 670px) {
+    .al35 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  .btnGroup53 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    button {
+      width: 170px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 7px;
+      background-color: #2269f5;
+      box-shadow: 1px 2px 3px 0px rgba(70, 118, 251, 0.41);
+      color: #fff;
+      font-size: 15px;
+      font-family: f400;
+      letter-spacing: -0.3px;
     }
   }
 }
